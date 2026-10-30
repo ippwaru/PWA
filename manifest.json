@@ -1,20 +1,25 @@
 {
-  "name": "IPP Waru",
+  "name": "Ikatan Penulis Pendidik Waru",
   "short_name": "IPP Waru",
-  "start_url": "/",
+  "description": "Portal Resmi Ikatan Penulis Pendidik Kecamatan Waru",
+  "start_url": "/PWA/",
+  "scope": "/PWA/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#1f287d",
   "theme_color": "#1f287d",
   "icons": [
     {
-      "src": "URL_LOGO_ANDA_DI_SINI.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "URL_LOGO_ANDA_DI_SINI.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
